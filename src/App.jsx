@@ -1,17 +1,15 @@
 import "./App.scss";
-import Header from "./components/sections/Header";
 import Navbar from "./components/sections/Navbar";
 import Footer from "./components/sections/Footer";
-import HeroBackground from "./components/shared/HeroBackground";
 import Hero from "./components/sections/Hero";
+import Features from "./components/sections/Features";
 
 function App() {
   return (
-    <div className="w-screen">
-      <HeroBackground />
+    <div className="flex flex-col justify-between">
       <Navbar />
       <Hero />
-      <Header />
+      <Features />
       <Footer />
     </div>
   );

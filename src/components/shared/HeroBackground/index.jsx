@@ -4,7 +4,7 @@ import leftItem from "../../../assets/images/bg-pattern-1.svg";
 import rightItem from "../../../assets/images/bg-pattern-2.svg";
 const HeroBackground = () => {
   return (
-    <div className="absolute z-[-1] shrink-0 overflow-hidden">
+    <div className="absolute z-[-1] shrink-0 overflow-hidden top-0">
       <img src={bgImg} className="max-h-[730px] w-screen" alt="" />
       <img
         src={leftItem}
