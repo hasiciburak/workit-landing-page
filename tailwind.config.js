@@ -7,6 +7,7 @@ module.exports = {
       secondary: "#44FFA1",
       tertiary: "#584D62",
       ghostwhite: "#FCF8FF",
+      white: "#FFFFFF",
     },
     extend: {
       fontFamily: {

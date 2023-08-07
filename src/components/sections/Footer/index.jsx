@@ -6,7 +6,7 @@ import igLogo from "../../../assets/images/icon-instagram.svg";
 
 const Footer = () => {
   return (
-    <footer className="absloute bottom-0 text-center w-screen flex flex-col mx-auto">
+    <footer className="absloute bottom-0 text-center w-screen flex flex-col mx-auto mt-[8rem] p-[7rem]">
       <div className="logo-area text-center mx-auto">
         <img src={darkLogo} alt="" />
       </div>

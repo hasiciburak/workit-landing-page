@@ -3,6 +3,7 @@ import Navbar from "./components/sections/Navbar";
 import Footer from "./components/sections/Footer";
 import Hero from "./components/sections/Hero";
 import Features from "./components/sections/Features";
+import CallToAction from "./components/sections/CalltToAction";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
+      <CallToAction />
       <Footer />
     </div>
   );
